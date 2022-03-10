@@ -776,9 +776,9 @@ public class Action extends BaseClass implements ActionInterface {
 			e.getMessage();
 		}
 		// This new path for jenkins
-		String newImageString = "http://localhost:8080/job/MyStore_E2E_Aj/ws/MyStoreProject/ScreenShots/" + filename + "_"
-				+ dateName + ".png";
-		return newImageString;
+//		String newImageString = "http://localhost:8080/job/MyStore_E2E_Aj/ws/MyStoreProject/ScreenShots/" + filename + "_"
+//				+ dateName + ".png";
+		return destination;
 	}
 	@Override
 	public String getCurrentTime() {

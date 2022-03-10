@@ -46,5 +46,7 @@ public class Log {
 	    Log.debug(message);
 
 		}
+
+
 	
 }
